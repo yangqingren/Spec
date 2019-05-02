@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
   s.resource_bundles = {
-     'LBCocoaSpecKit' => ['LBCocoaSpecKit/Assets/*']
+     'LBCocoaSpecKitBox' => ['LBCocoaSpecKit/Assets/*']
   }
   
   #s.dependency 'SDWebImage'
