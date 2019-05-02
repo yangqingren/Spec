@@ -41,10 +41,10 @@ Pod::Spec.new do |s|
   #s.dependency 'SDWebImage'
   #s.dependency 'LBCocoaSpecKit2'
   
-  #s.subspec 'LBCocoaSubKit' do |ss|
-  #  ss.frameworks = 'UIKit', 'Foundation'
-  #  ss.source_files = 'LBCocoaSpecKit/LBCocoaSubKit/**/*'
-  #end
+  s.subspec 'LBCocoaSubKit' do |ss|
+    ss.frameworks = 'UIKit', 'Foundation'
+    ss.source_files = 'LBCocoaSpecKit/LBCocoaSubKit/**/*'
+  end
 
   
   
