@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LBCocoaSpecKit2/Classes/**/*'
   
-  s.dependency 'AFNetworking' ,'~> 3.0.0'
+  s.dependency 'AFNetworking' ,'3.0.0'
   
   # s.resource_bundles = {
   #   'LBCocoaSpecKit2' => ['LBCocoaSpecKit2/Assets/*.png']
