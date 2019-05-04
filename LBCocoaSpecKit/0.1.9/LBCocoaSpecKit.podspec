@@ -34,26 +34,29 @@ Pod::Spec.new do |s|
   
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
-  s.resource_bundles = {
-     'LBCocoaSpecKitBox' => ['LBCocoaSpecKit/Assets/*']
-  }
+  #s.resource = 'LBCocoaSpecKit/Assets/LBCocoaSpecKit.bundle'
+  
+  #s.resource_bundles = {
+  #  'SpecBox' => ['LBCocoaSpecKit/Assets/*']
+  #}
+  
   
   #s.dependency 'SDWebImage'
   #s.dependency 'LBCocoaSpecKit2'
   
-  s.subspec 'LBCocoaSubSpec' do |ss|
-    ss.frameworks = 'UIKit', 'Foundation'
-    ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec/**/*'
-  end
+  # s.subspec 'LBCocoaSubSpec' do |ss|
+  # ss.frameworks = 'UIKit', 'Foundation'
+  # ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec/**/*'
+  #end
   
-  s.subspec 'LBCocoaSubSpec2' do |ss|
-      ss.frameworks = 'UIKit', 'Foundation'
-      ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec2/**/*'
-  end
+  #s.subspec 'LBCocoaSubSpec2' do |ss|
+  #ss.frameworks = 'UIKit', 'Foundation'
+  #ss.source_files = 'LBCocoaSpecKit/LBCocoaSubSpec2/**/*'
+  #end
 
   
-  
-  #s.dependency 'AFNetworking' ,'~> 3.0.0'
-  
+  #s.dependency 'AFNetworking'
+  #s.dependency 'AFNetworking' ,'~> 2.0'
+  #s.dependency 'AFNetworking' ,'3.2.1'
   
 end
