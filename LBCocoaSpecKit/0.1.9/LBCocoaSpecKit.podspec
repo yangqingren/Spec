@@ -34,15 +34,14 @@ Pod::Spec.new do |s|
   
   s.source_files = 'LBCocoaSpecKit/Classes/**/*'
   
+  #s.dependency 'SDWebImage'
+  s.dependency 'LBCocoaSpecKit2', '0.1.1'
+  
   #s.resource = 'LBCocoaSpecKit/Assets/LBCocoaSpecKit.bundle'
   
   #s.resource_bundles = {
   #  'SpecBox' => ['LBCocoaSpecKit/Assets/*']
   #}
-  
-  
-  #s.dependency 'SDWebImage'
-  #s.dependency 'LBCocoaSpecKit2'
   
   # s.subspec 'LBCocoaSubSpec' do |ss|
   # ss.frameworks = 'UIKit', 'Foundation'
